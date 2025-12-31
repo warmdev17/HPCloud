@@ -1,0 +1,12 @@
+# env
+.env
+
+# docker volumes
+**/db
+**/nextcloud
+
+# logs
+*.log
+
+# OS
+.DS_Store
