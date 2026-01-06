@@ -20,7 +20,7 @@ services:
     command: redis-server --save "" --appendonly no
 
   app:
-    image: nextcloud:28
+    image: nextcloud:29
     container_name: nextcloud
     restart: unless-stopped
     depends_on:
